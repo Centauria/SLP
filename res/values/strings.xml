@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SLP</string>
+
+    <!-- HomeView strings -->
+    <string name="practice">Practice</string>
+    <string name="live">Live</string>
+    <string name="settings">Settings</string>
+
+    <!-- Test strings -->
+    
+    <string name="perfect">PERFECT</string>
+    <string name="great">GREAT</string>
+    <string name="good">GOOD</string>
+    <string name="bad">BAD</string>
+    <string name="miss">MISS</string>
+    <string name="combo">combo</string>
+    <string name="title_activity_practice_popup">PopupActivity</string>
+    <string name="next_version">you will enjoy it in the following version</string>
+    <string name="live_setup">Live setup</string>
+    <string name="cancel">Cancel</string>
+    <string name="practice_settings">Practice Settings</string>
+    <string name="haku">Haku:</string>
+    <string name="bars">Bars:</string>
+    <string name="type">Type:</string>
+    <string name="bpm">BPM:</string>
+    <string name="global_settings">Global Settings</string>
+    <string name="autoplay">AutoPlay</string>
+    <string name="velocity">Velocity:</string>
+    <string name="offset">Offset:</string>
+    <string name="roughset">RoughSet:</string>
+    <string name="title_activity_choose_song">ChooseSongActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_live_popup">LivePopupActivity</string>
+    <string name="live_hall">LIVE HALL</string>
+    <string name="easy">EZ</string>
+    <string name="normal">NORMAL</string>
+    <string name="hard">HARD</string>
+    <string name="expert">EX</string>
+    <string name="technical">TECH</string>
+    <string name="master">MAS</string>
+    <string name="offset_explanation">(When offset is bigger than 0, the pattern outstrips the BGM. Otherwise the pattern lags behind the BGM.)</string>
+    <string name="assets_link">Assets link:</string>
+    <string name="link_explanation">(The 5 links work exactly the same, so you can change a link when the original link cannot load the resource correctly.)</string>
+    <string name="link_1">link 1</string>
+    <string name="link_2">link 2</string>
+    <string name="link_3">link 3</string>
+    <string name="link_4">link 4</string>
+    <string name="link_5">link 5</string>
+    <string name="change_tempo">Change tempo</string>
+    <string name="play_bgm">Play BGM</string>
+    <string name="ratio">Ratio:</string>
+    <string name="n1_0">1.0</string>
+    <string name="ok">OK</string>
+    <string name="warning_ratio_too_high">ratio too high, decreased to 1.5</string>
+    <string name="warning_ratio_too_low">ratio too low, increased to 0.5</string>
+    <string name="downloading">Downloading&#8230;</string>
+
+</resources>

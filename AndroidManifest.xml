@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.centauria.slp"
+    android:versionCode="2"
+    android:versionName="1.2.0.170310_beta" android:installLocation="preferExternal">
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MainApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PracticePopupActivity"
+            android:label="@string/title_activity_practice_popup"
+            android:theme="@style/PracticeConfigDialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.practice_popup" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LivePopupActivity"
+            android:label="@string/title_activity_live_popup"
+            android:theme="@style/LiveConfigDialog" >
+            <intent-filter>
+                <action android:name="android.intent.action.live_popup" />
+
+                <category android:name="android.intent.category.DEFAULT" />"
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

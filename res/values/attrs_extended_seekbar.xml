@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="ExtendedSeekBar">
+        <attr name="label" format="reference|string"></attr>
+        <attr name="oriental" >
+            <enum name="Horizontal" value="1"></enum>
+            <enum name="Vertical" value="0"></enum>
+        </attr>
+        <attr name="min" format="reference|float"></attr>
+        <attr name="max" format="reference|float"></attr>
+        <attr name="step" format="reference|integer"></attr>
+        <attr name="current" format="reference|float"></attr>
+    </declare-styleable>
+    
+</resources>

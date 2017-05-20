@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LivePopupActivity"
+    tools:ignore="ContentDescription" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <ImageView
+            android:id="@+id/layout_live_song_configuration_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/layout_live_song_configuration_titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center" >
+            <TextView
+	            android:id="@+id/layout_live_song_configuration_difficultyTextView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="" />
+            <TextView
+	            android:id="@+id/layout_live_song_configuration_maxComboTextView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginStart="20dp"
+	            android:text="" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp" >
+
+            <CheckBox
+                android:id="@+id/layout_live_song_configuration_checkBox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/change_tempo" />
+
+            <CheckBox
+                android:id="@+id/layout_live_song_configuration_checkBox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/play_bgm" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true" 
+            android:focusableInTouchMode="true" >
+
+            <TextView
+                android:id="@+id/layout_live_song_configuration_textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ratio"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <SeekBar
+                android:id="@+id/layout_live_song_configuration_seekBar1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:max="20"
+                android:progress="10"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/layout_live_song_configuration_editText"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:enabled="false"
+                android:inputType="numberDecimal"
+                android:labelFor="@id/layout_live_song_configuration_editText"
+                android:text="@string/n1_0" />
+
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/layout_live_song_configuration_bt_homeButton"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="@layout/button_general"
+            android:text="@string/ok" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PopupView">
+        <attr name="testMarginLeft" format="dimension" />
+        <attr name="bgColor" format="color" />
+        <attr name="foreDrawable" format="color|reference" />
+    </declare-styleable>
+</resources>

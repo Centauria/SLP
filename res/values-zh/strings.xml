@@ -1,0 +1,59 @@
+<resources>
+
+    <!-- Untranslated Strings -->
+    
+    <string name="app_name">Spiritual LoveLive Practice</string>
+    <string name="perfect">PERFECT</string>
+    <string name="great">GREAT</string>
+    <string name="good">GOOD</string>
+    <string name="bad">BAD</string>
+    <string name="miss">MISS</string>
+    <string name="combo">combo</string>
+    <string name="title_activity_practice_popup">PopupActivity</string>
+    <string name="title_activity_choose_song">ChooseSongActivity</string>
+    <string name="title_activity_live_popup">LivePopupActivity</string>
+    <string name="bpm">BPM:</string>
+    <string name="n1_0">1.0</string>
+    <string name="ok">OK</string>
+    <string name="easy">EZ</string>
+    <string name="normal">NORMAL</string>
+    <string name="hard">HARD</string>
+    <string name="expert">EX</string>
+    <string name="technical">TECH</string>
+    <string name="master">MAS</string>
+    
+    <!-- Translated Strings -->
+    
+    <string name="action_settings">设置</string>
+    <string name="assets_link">资源外链：</string>
+    <string name="autoplay">自动播放</string>
+    <string name="bars">小节数：</string>
+    <string name="cancel">取消</string>
+    <string name="change_tempo">改变速度</string>
+    <string name="downloading">正在下载&#8230;</string>
+    <string name="global_settings">全局设置</string>
+    <string name="haku">拍型：</string>
+    <string name="link_1">链接 1</string>
+    <string name="link_2">链接 2</string>
+    <string name="link_3">链接 3</string>
+    <string name="link_4">链接 4</string>
+    <string name="link_5">链接 5</string>
+    <string name="link_explanation">（五个链接作用相同，当一个链接不能加载资源时可以换一个链接重试。）</string>
+    <string name="live">实战</string>
+    <string name="live_hall">曲目选择：</string>
+    <string name="live_setup">LIVE设置</string>
+    <string name="next_version">请期待后续版本</string>
+    <string name="offset_explanation">（延迟大于0 时谱面相对BGM来说倾向于超前，反之落后）</string>
+    <string name="play_bgm">播放背景音乐</string>
+    <string name="practice">练习</string>
+    <string name="practice_settings">练习设置</string>
+    <string name="ratio">速度比：</string>
+    <string name="settings">设置</string>
+    <string name="type">类型：</string>
+    <string name="velocity">谱面速度：</string>
+    <string name="offset">谱面延迟：</string>
+    <string name="roughset">延迟粗调：</string>
+    <string name="warning_ratio_too_high">速度比太高，已自动降为1.5</string>
+    <string name="warning_ratio_too_low">速度比太低，已自动升为0.5</string>
+
+</resources>
