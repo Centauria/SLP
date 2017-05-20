@@ -1,2 +1,8 @@
 *.java linguist-language=android
 *.xml linguist-language=android
+*.ttf linguist-language=android
+*.mp3 linguist-language=android
+*.json linguist-language=android
+*.jar linguist-language=android
+*.jpg linguist-language=android
+*.png linguist-language=android
