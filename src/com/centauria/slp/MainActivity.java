@@ -424,7 +424,6 @@ public class MainActivity extends Activity implements OnClickListener{
 			
 		});
 		sb=(SeekBar) this.findViewById(R.id.layout_global_settings_seekBar3);
-		int a;
 		sb.setProgress((int) ((Setting.offset_rough+1000)/200));
 		final TextView tv3=(TextView) this.findViewById(R.id.layout_global_settings_textView3);
 		tv3.setText(String.format("%.0f", Setting.offset_rough));
