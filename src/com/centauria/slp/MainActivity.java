@@ -494,38 +494,6 @@ public class MainActivity extends Activity implements OnClickListener{
 	public int dp2px(int padding_in_dp){
 		return (int)(padding_in_dp*Status.Screen.density+0.5f);
 	}
-	/*
-	@Override
-	protected Dialog onCreateDialog(int id){
-		switch(id){
-		case DIALOG_LIVE_SETUP:
-			return new AlertDialog.Builder(this).setIcon(R.drawable.ic_launcher)
-					.setTitle(R.string.live_setup).setView(MainActivity.this.getLayoutInflater().inflate(R.layout.layout_live_practice_configuration, null))
-					.setPositiveButton(R.string.go, 
-							new DialogInterface.OnClickListener() {
-						
-						@Override
-						public void onClick(DialogInterface arg0, int arg1) {
-							// TODO Auto-generated method stub
-							String[] ss=MainActivity.this.fileList();
-							for(String s:ss){
-								Log.i("files", s);
-							}
-						}
-					})
-					.setNegativeButton(R.string.cancel, 
-							new DialogInterface.OnClickListener() {
-						
-						@Override
-						public void onClick(DialogInterface arg0, int arg1) {
-							// TODO Auto-generated method stub
-							MainActivity.this.deleteFile("config.json");
-						}
-					}).create();
-		}
-		return null;
-	}
-	*/
 	@Override
 	protected void onActivityResult(int requestCode,int resultCode,Intent data){
 		switch(requestCode){
