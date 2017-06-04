@@ -274,7 +274,6 @@ SoundPool.OnLoadCompleteListener{
 			switch(event.getAction()&MotionEvent.ACTION_MASK){
 			case MotionEvent.ACTION_DOWN:
 			case MotionEvent.ACTION_POINTER_DOWN:
-//				Log.i("finger down", l+"("+event.getX()+","+event.getY()+")");
 				LogUtil.i("finger down: "+l+"("+event.getX()+","+event.getY()+")");
 				if(l==-1){
 					
@@ -288,7 +287,6 @@ SoundPool.OnLoadCompleteListener{
 				break;
 			case MotionEvent.ACTION_UP:
 			case MotionEvent.ACTION_POINTER_UP:
-//				Log.i("finger up", l+"("+event.getX()+","+event.getY()+")");
 				LogUtil.i("finger up: "+l+"("+event.getX()+","+event.getY()+")");
 				if(l==-1){
 					
@@ -296,6 +294,16 @@ SoundPool.OnLoadCompleteListener{
 				else{
 					synchronized(fingerEvents){
 						fingerEvents.add(new FingerEvent(l,NoteType.up,time_running_ms/1000));
+					}
+				}
+				break;
+			case MotionEvent.ACTION_MOVE:
+				if(l==-1){
+					
+				}
+				else{
+					synchronized(fingerEvents){
+						fingerEvents.add(new FingerEvent(l,NoteType.drag,time_running_ms/1000));
 					}
 				}
 				break;
@@ -822,7 +830,6 @@ SoundPool.OnLoadCompleteListener{
 							default:
 								break;
 							}
-//							Log.e("down assessment", l+" "+assessment);
 							LogUtil.e("down assessment: "+l+" "+assessment);
 						}
 						break;
@@ -839,7 +846,6 @@ SoundPool.OnLoadCompleteListener{
 									break;
 								}
 							}
-//							Log.e("up assessment", l+" "+assessment);
 							LogUtil.e("up assessment: "+l+" "+assessment);
 						}
 						break;

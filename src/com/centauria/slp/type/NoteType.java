@@ -1,5 +1,5 @@
 package com.centauria.slp.type;
 
 public enum NoteType{
-	click,press,up
+	click,press,up,drag
 }

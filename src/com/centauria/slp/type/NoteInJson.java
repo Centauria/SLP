@@ -5,6 +5,8 @@ public class NoteInJson {
 	public static final int NOTE_EVENT=2;
 	public static final int NOTE_LONG=3;
 	public static final int NOTE_STAR=4;
+	public static final int NOTE_SWING_NORMAL=11;
+	public static final int NOTE_SWING_LONG=13;
 	
 	public double timing_sec;
 	public int notes_attribute;
