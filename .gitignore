@@ -1,0 +1,4 @@
+/bin/*
+/.settings/*
+ic_launcher-web.png
+proguard-project.txt
